@@ -7,8 +7,8 @@ def roll_call_dwarves(source_array)
   answer
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(palanteer_calls)
+  call = palanteer_calls.map{}
 end
 
 def long_planeteer_calls# code an argument here
