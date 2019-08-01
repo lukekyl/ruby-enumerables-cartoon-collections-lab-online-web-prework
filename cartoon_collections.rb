@@ -8,7 +8,7 @@ def roll_call_dwarves(source_array)
 end
 
 def summon_captain_planet(palanteer_calls)
-  call = palanteer_calls.map{}
+  call = palanteer_calls.map{|n| "#{n.capitalize}!"}
 end
 
 def long_planeteer_calls# code an argument here
