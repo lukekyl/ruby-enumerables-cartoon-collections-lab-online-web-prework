@@ -33,5 +33,5 @@ def find_the_cheese(strings)
       return nil
     end
   }
-  
+  ischeese
 end
