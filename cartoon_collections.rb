@@ -26,8 +26,12 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   ischeese = strings.find { |n|
-    cheese_types.include?(n)
-    
+    if cheese_types.include?(n)
+      puts n
+      n
+    else
+      return nil
+    end
   }
   
 end
