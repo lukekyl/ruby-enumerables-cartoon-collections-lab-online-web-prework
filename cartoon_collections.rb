@@ -15,10 +15,10 @@ end
 
 def long_planeteer_calls(call_array)
   short_long = call_array.any? {|word|
-    word.length >= 4
+    word.length > 4
   }
-  
-  
+  puts short_long
+  short_long
 end
 
 def find_the_cheese# code an argument here
