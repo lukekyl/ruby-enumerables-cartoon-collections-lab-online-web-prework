@@ -28,10 +28,9 @@ def find_the_cheese(strings)
   ischeese = strings.find { |n|
     if cheese_types.include?(n)
       puts n
-      n
-    else
-      return nil
+      return n
     end
   }
   ischeese
+  return nil
 end
