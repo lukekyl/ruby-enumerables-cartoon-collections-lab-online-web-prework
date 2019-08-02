@@ -14,7 +14,9 @@ def summon_captain_planet(palanteer_calls)
 end
 
 def long_planeteer_calls(call_array)
-  short_long = call_array.find
+  short_long = call_array.any? {|word|
+    word.length >= 4
+  }
   
   
 end
